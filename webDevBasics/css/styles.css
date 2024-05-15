@@ -1,0 +1,44 @@
+body {
+    background-color: orangered;
+}
+#signature {
+    font-weight: 900;
+    font-size: 50px;
+}
+h1 {
+    color:purple;
+}
+/*  what makes this class???  the . */
+.ugly-background {
+    background-color: brown;
+}
+
+::placeholder {
+    background-color: rgb(245, 23, 23);
+    color:greenyellow
+}
+
+button[disabled] {
+    background-color: lawngreen;
+}
+
+button {
+    padding: 25px 10px 100px 22px;
+    border:5px solid blueviolet;
+    margin:125px 25px 50px 75px
+}
+
+section {
+    border:5px solid yellow;
+    padding:15px;
+    margin: 15vw;
+
+    & h1 {
+        background-color: cornflowerblue;
+        margin:0;
+    }
+    & p {
+        background-color: peru;
+        margin:0;
+    }
+}
