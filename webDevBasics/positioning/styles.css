@@ -1,0 +1,94 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    top: 0;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: sticky;
+}
+
+.navbar nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.article {
+    padding: 20px;
+    margin: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 1px;
+    width: 100%;
+    position:sticky;
+    z-index: 2;
+}
+.action-button {
+
+    background-color: red;
+    border-radius: 50%;
+    padding: 50px;
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+    width:150px;
+    height:150px;
+    text-align: center;
+    border: 1px solid white;
+
+}
+.button-container {
+    position: fixed;
+    z-index:10;
+    bottom:10vh;
+    /* 10 % of the VIEW WIDTH - the WIDTH OF THE SCREEN */
+    right:10vw; 
+    width:250px;
+    height:250px;
+    border:2px solid yellowgreen;
+    display: flex;
+}
+.fun-image {
+    position: absolute;
+    bottom:100px;
+    height:50px;
+    width:50px;
+}
+
+.fun-image::after {
+    color:blue;
+    display: inline-block;;
+    content: "";
+    width:10vw;
+    height:10vh;
+    background-image: url('https://media.cnn.com/api/v1/images/stellar/prod/230605134133-taco-bell-vegan-crunchwrap-handout.jpg?c=original');
+    background-size: cover;
+    
+}
+
+
+

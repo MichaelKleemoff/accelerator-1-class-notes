@@ -1,0 +1,20 @@
+.ads-container {
+    border:5px rgb(108, 108, 20) dotted;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.articles-container {
+    display:flex;
+    column-gap: 50px;
+    border:2px solid red;
+    padding:0px 25px;
+}
+article {
+    border:2px solid black
+}
+
+#whatever {
+    text-align: center;
+}
